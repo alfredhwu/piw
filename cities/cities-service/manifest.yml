@@ -1,0 +1,7 @@
+---
+applications:
+- name: dwu-cities-service
+  memory: 650M
+  instances: 2
+  path: build/libs/cities-ui.jar
+  services: [ dwu-mysql, dwu-app-autoscaler ]
