@@ -1,0 +1,19 @@
+Developer Quiz
+---
+
+[D1] Where should your applications write logs?
+
+
+[D2] What command would you run to see the environment variable showing all of your services bound to an application?
+
+
+[D3] How would you set the SPRING_PROFILES_ACTIVE environment variable from the command line?
+
+
+[D4] What happens to an application when you scale the amount of memory? Why?
+
+
+[D5] What happens when you scale an application horizontally?
+
+
+[D6] If you are building a new service broker, what is the best practice when creating a new service instance binding?

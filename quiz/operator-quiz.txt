@@ -1,0 +1,50 @@
+Overview
+---
+
+- [O1] What are the 4 Core Tenets of Pivotal CF?
+
+- [O2] What are the 4 Levels of HA?
+
+
+Operations
+---
+
+Installing Pivotal CF on vSphere
+
+- [O3] What is the preferred Network Segmentation strategy?  List each segment and describe the traffic on each.
+
+
+Scaling the Platform
+
+- [O4] What component would you scale to add capacity to host additional application instances?
+
+- [O5] Where in Ops Manager would you scale the above component?
+
+
+Backing Up Pivotal CF
+
+- [O6] What critical databases need to be backed up?
+
+
+Bosh basics & troubleshooting
+
+- [O7] What directory on the Ops Manager VM contains the Ops Manager artifacts and configuration?
+
+- [O8] How would you restart Ops Manager?
+
+- [O9] What bosh component is responsible for recreating a failed VM?
+
+- [O10] Where did you enable the above component in Ops Manager?
+
+- [O11] In the Jenkins manifest, what stemcell is used for the jenkins master job?
+
+- [O12] In the Jenkins manifest, what errands exist?
+
+- [O13] What bosh command would you use to attempt to manually scan the health and possibly recover failed VMs
+
+- [O14] Assume you are unable to retrieve agent logs using the bosh command.  Explain what steps you would take to attempt to review the logs.
+
+
+Application Security Groups
+
+- [O15] What is the name of the default "staging-security-group"?
