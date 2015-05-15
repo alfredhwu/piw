@@ -1,4 +1,4 @@
-cf login -a https://api.$CF_SYS_DOMAIN -u $CF_USER -p $CF_PWD -o $CF_ORG -s $CF_SPACE --skip-ssl-validation
+cf login -a api.$CF_SYS_DOMAIN -u $CF_USER -p $CF_PWD -o $CF_ORG -s $CF_SPACE --skip-ssl-validation
 
 DEPLOYED_VERSION_CMD=$(CF_COLOR=false cf apps | grep $CF_APP- | cut -d" " -f1)
 DEPLOYED_VERSION="$DEPLOYED_VERSION_CMD"
